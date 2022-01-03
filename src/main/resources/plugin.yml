@@ -1,0 +1,12 @@
+name: "MineChunks"
+version: "${project.version}}"
+main: com.github.crafttogether.minechunks.MineChunks
+api-version: 1.17
+commands:
+  load:
+    description: Chunks load the chunk you are in
+    usage: /<command>
+  isloaded:
+    description: Check if the chunk you are in is chunk loaded
+    usage: /<command>
+    aliases: is
