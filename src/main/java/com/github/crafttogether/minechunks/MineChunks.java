@@ -21,6 +21,7 @@ public class MineChunks extends JavaPlugin {
 
         getConfig().options().copyDefaults();
         saveDefaultConfig();
+        LoadedChunksHandler.init();
         try {
             getConfig().load(Files.newBufferedReader(Path.of(plugin.getDataFolder() + "/config.yml")));
         } catch (Exception e) {
