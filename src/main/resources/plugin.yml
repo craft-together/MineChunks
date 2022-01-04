@@ -10,3 +10,9 @@ commands:
     description: Check if the chunk you are in is chunk loaded
     usage: /<command>
     aliases: is
+  unload:
+    description: Stop chunkloading the chunk you are in
+    usage: /<command>
+  unloadall:
+    description: unload all chunks
+    usage: /<command>
